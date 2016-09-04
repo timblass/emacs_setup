@@ -134,20 +134,3 @@
    kept-new-versions 6
    kept-old-versions 2
    version-control t)       ; use versioned backups
-
-(setq column-number-mode t)
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
-
-;;------------------------------------;;
-;; JUNK:
-
-;; REMOVING MARKDOWN STUFF ... use Atom for Markdown
-;;(add-to-list 'load-path "/Users/nsg208/.emacs.d/markdown/")
-
-;;(autoload 'markdown-mode "markdown-mode"
-;;   "Major mode for editing Markdown files" t)
-;;(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
-;;(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-;;(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-
-;;------------------------------------;;

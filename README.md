@@ -24,4 +24,15 @@ because it has a nice Markdown viewer.
 [Use whatever you like.](http://xkcd.com/378/)
 
 ## What's here?
-I copied my `.emacs` file to this repo.
+I copied my `.emacs` file to this repo. It has comments in it
+to explain what's what, but a quick overview is this:
+- Include MELPA package manager
+- basic stuff like displaying the cursor's column, deleting trailing whitespace automatically, etc.
+- add column marker to shell scripts (don't go past 80 columns)
+- Python Pep8 compliance packages
+- jedi for Python tab-completion (I'm on the fence with this one, right now these lines are commented out)
+- solarized theme setup
+- move automatic backup files (file.name~) to a ``./saves/`` directory
+
+## Dependencies
+-- Todo: write out all dependencies!
