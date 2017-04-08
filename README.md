@@ -35,4 +35,5 @@ to explain what's what, but a quick overview is this:
 - move automatic backup files (file.name~) to a ``./saves/`` directory
 
 ## Dependencies
+- The `pychecker` script must be added to your system path. 
 -- Todo: write out all dependencies!
