@@ -35,5 +35,10 @@ to explain what's what, but a quick overview is this:
 - move automatic backup files (file.name~) to a ``./saves/`` directory
 
 ## Dependencies
-- The `pychecker` script must be added to your system path. 
--- Todo: write out all dependencies!
+- The `pychecker` script must be added to your system path.
+- [flymake](https://www.emacswiki.org/emacs/FlyMake) checks syntax
+- You'll want to use MELPA to install packages. I used it to get the
+Solarized theme.
+
+
+-- To do: write out all dependencies!
